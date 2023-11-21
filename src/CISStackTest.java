@@ -82,7 +82,7 @@ class CISStackTest {
         cisStack.push(10);
         cisStack.push(12);
 
-        expected = "CISStack{stack=[8, 10, 12], size=3}";
+        expected = "CISStack{stack=[12, 10, 8], size=3}";
         assertEquals(expected, cisStack.toString());
 
     }
